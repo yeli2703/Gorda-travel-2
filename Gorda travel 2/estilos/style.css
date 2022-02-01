@@ -1,0 +1,125 @@
+*{ 
+    margin: 0;   
+    padding:0;
+}
+
+
+body{  
+    padding-left: 20px; 
+    background-color: rgb(255, 235, 205) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+ background-image: url(multimedia/logo2.jpg)
+
+
+}
+.logo{
+    margin-left:5px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+nav{
+
+    margin: 20px;
+    padding: 15px;
+}
+
+
+span{
+    background-color: rgb(185, 152, 103);
+    width: 150px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/*display*/
+ul li{
+    display: inline;
+    margin: 20px;
+    background-color: rgb(185, 152, 103);
+    font-style: bold;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    width:10px;     
+  }
+
+/*FlexBox*/
+.padre-flex{
+    display: flex;
+    flex-direction: row;
+    font-style: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+   
+}
+.submenu{
+    position: relative;
+}
+
+.submenu ul{
+    position: absolute;
+    display: none;
+}
+
+.submenu:hover ul{
+    display: block;
+    background-color:rgb(185, 152, 103);
+}
+
+.main flex h2{
+
+    text-align:center; 
+    margin: 15px;   
+}
+
+
+/*HIJOS FLEX*/
+.hijo-flex-destacado{
+    order: -1;
+    border: rgb(12, 14, 12) 50px;
+    width: 70%;
+
+}
+
+
+.section galeria h2{
+    text-align: center;
+}
+
+.section galeria-flex{
+    display: flex;
+    flex-flow: column-nowrap;
+    justify-content: flex-start;
+    width: 30px;
+    margin: 40px;
+    align-content: space-between-bottom;
+    align-self: center;
+    margin-inline-end: 25px;
+    margin-block: 50px;
+    border-radius: 50px;
+ 
+}
+
+/*footer*/
+.pie li{
+    display: inline;
+    margin: 10px;
+}
+.pie img{
+    width: 20px;
+}
+
+
+
+
